@@ -27,25 +27,25 @@ body {
 }
 
 #main {
+	/*
 	margin: 0 auto;
 	width: 940px;
-
+*/
 	padding-top: 30px;
 }
 
+/*
 #header {
 	width: 948px;
 	margin: 0 auto;
 	height: 367px;
 }
-
+*/
 #logo {
 	padding-left: 50px;
 	text-align: left;
 	padding-top: 30px;
-	height: 65px;
-	width: 948px;
-	margin: 0 auto;
+	
 }
 
 #logo a {
@@ -59,7 +59,7 @@ body {
 #logo H2 a {
 	font-size: 10px;
 }
-
+/*
 #navigation {
 	position: relative;
 	z-index: 100;
@@ -69,7 +69,7 @@ body {
 	margin-top: 15px;
 	margin-bottom: 30px;
 }
-
+*/
 #navigation li {
 	list-style-type: none;
 	margin: 0px;
@@ -337,6 +337,11 @@ body {
 	padding-bottom: 15px
 }
 
+/*以下1*/
+.box2 h2{
+	color: #54A719;
+}
+
 .pad {
 	padding: 0 25px
 }
@@ -391,8 +396,7 @@ body {
 }
 
 #footer_top {
-	width: 841px;
-	margin: 0 auto;
+	
 	padding-top: 25px;
 	background: url(images/footer_top_border.png) no-repeat bottom left;
 	position: relative;
@@ -421,13 +425,13 @@ body {
 }
 
 #footer_column1, #footer_column2, #footer_column3 {
-	width: 226px;
+	
 	float: left;
 }
 
 .footer_text {
 	background: url(images/footer_top_border.png) no-repeat top left;
-	width: 226px;
+	
 	padding: 10px 0px 10px 0px;
 }
 
