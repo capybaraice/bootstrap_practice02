@@ -186,7 +186,7 @@ body {
 	font-weight: normal;
 	padding-top: 10px;
 }
-
+/*
 #column1, #column2, #column3 {
 	float: left;
 	width: 231px;
@@ -206,10 +206,23 @@ body {
 	margin: 0px 22px 20px 16px;
 }
 
-#column_box p {
+#column1 a  {
 	font: 11px Arial, Helvetica, sans-serif;
 	color: #666666;
 }
+*/
+
+#column1 a  {
+	color: #54A719;
+}
+#column2 a  {
+	color: #54A719;
+}
+#column3 a  {
+	color: #54A719;
+}
+
+/*上面寫*/
 
 .img-box {
 	width: 100%;
