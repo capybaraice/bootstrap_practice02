@@ -29,6 +29,8 @@ body {
 #main {
 	margin: 0 auto;
 	width: 940px;
+
+	padding-top: 30px;
 }
 
 #header {
@@ -38,7 +40,7 @@ body {
 }
 
 #logo {
-	padding-left: 40px;
+	padding-left: 50px;
 	text-align: left;
 	padding-top: 30px;
 	height: 65px;
@@ -68,13 +70,13 @@ body {
 	margin-bottom: 30px;
 }
 
-#navigation ul {
+#navigation li {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
 }
 
-#navigation ul li {
+#navigation li {
 	position: relative;
 	float: left;
 	display: inline;
@@ -82,7 +84,7 @@ body {
 	background: url(images/nav-div.gif) no-repeat right 0;
 }
 
-#navigation ul li a {
+#navigation li a {
 	float: left;
 	display: inline;
 	height: 36px;
@@ -96,13 +98,13 @@ body {
 	text-decoration: none;
 }
 
-#navigation ul li a:hover, #navigation ul li a.hover {
+#navigation  li a:hover, #navigation  li a.hover {
 	background: url(images/nav-hover.png) repeat-x 0 0;
 	color: #fff;
 	text-shadow: 0px 1px 1px #333;
 }
 
-#navigation ul li.first a:hover {
+#navigation  li.first a:hover {
 	background: url(images/first-nav-hover.png) no-repeat 0 0 !important;
 }
 
